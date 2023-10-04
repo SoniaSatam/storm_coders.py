@@ -1,0 +1,35 @@
+/*Home*/
+#home{
+  background:rgb(0, 101, 219) ;
+  background: linear-gradient(90deg,rgb(0,101,219) 50%, rgb(0,212,255) 100%);
+  min-height: 500px;
+}
+/*Cards*/
+.card{
+  transition: all 0.5s ease; 
+}
+.card:hover{
+  cursor:pointer;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+
+/*Footer*/
+.footer{
+  background:rgb(0, 101, 219) ;
+  background: linear-gradient(90deg,rgb(0,101,219) 50%, rgb(0,212,255) 100%);
+}
+
+/*Form*/
+.form{
+  background:rgb(0, 101, 219) ;
+  background: linear-gradient(90deg,rgb(0,101,219) 30%, rgb(0,212,255) 100%);
+}
+.navbar a {
+  float: left; /* Float links to the left */
+  display: block; /* Make links fill the entire width of the container */
+  color: #f2f2f2; /* Change link color to your liking */
+  text-align: center; /* Center link text horizontally */
+  padding: 14px 16px; /* Add padding to links */
+  text-decoration: none; /* Remove underline from links */
+}
+
